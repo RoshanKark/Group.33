@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airline Services</title>
+    <link rel="stylesheet" href="assets/styles.css"> <!-- Ensure the file path is correct -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column; /* changed for better structuring */
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #222; /* Added consistency in nav background */
+            padding: 10px 20px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0; /* Remove default margin */
+        }
+
+        nav ul li {
+            margin-bottom: 10px;
+        }
+
+        nav ul li a {
+            color: #f2f2f2;
+            text-decoration: none; /* Remove underline */
+        }
+
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center; /* Centering the cards */
+            padding: 20px;
+        }
+
+        .card {
+            background-color: #f2f2f2;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 5px;
+            flex-basis: 30%; /* Adjust width */
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Adding shadow for better visibility */
+        }
+
+        .explore-button {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .explore-button:hover {
+            background-color: #555;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            width: 100%;
+            margin-top: auto; /* Added to keep footer at the bottom */
+        }
+
+        footer a {
+            color: #fff;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>United Tour's and Travel Agency</h1>
+        <img src="assets/logo.jpg" style="border-radius: 25px;" alt="Airline Services Logo" width="150">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="bookings.html">Bookings</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="content">
+        <!-- Cards for each airline as previously structured, with the explore button for each -->
+        <div class="card">
+            <h2>Emirates Airlines</h2>
+            <p>Emirates Airlines is known for its excellent services and dedicated staff, ensuring safety and comfort.</p>
+            <button class="explore-button">Explore More</button>
+        </div>
+        <!-- More cards follow the same pattern -->
+    </div>
+
+    <footer>
+        <a href="#" target="_blank">Facebook</a>
+        <a href="#" target="_blank">Twitter</a>
+        <a href="#" target="_blank">Instagram</a>
+    </footer>
+</body>
+</html>
